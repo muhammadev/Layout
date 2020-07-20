@@ -1,0 +1,25 @@
+* {
+	/* margin:0; padding:0; */
+	box-sizing: border-box;
+}
+
+.container {
+	width: 80%; height: 100%;
+	margin:auto;
+	border: 1px solid rgb(226, 226, 226);
+	border-radius: 5px;
+	transition: .3s ease;
+	position: relative;
+}
+
+.child {
+	width: 250px; height: auto;
+	min-height: 80px;
+	padding: 15px;
+	border:1px solid #dfe1e5;
+	border-radius: 5px;
+	background: #fff;
+	position: absolute;
+	top:0; left:0;
+	transition: .3s ease;
+}
